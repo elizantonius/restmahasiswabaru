@@ -1,0 +1,9 @@
+ERROR - 2021-10-31 22:26:28 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+ERROR - 2021-10-31 22:27:29 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+ERROR - 2021-10-31 22:28:02 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+ERROR - 2021-10-31 22:31:37 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+ERROR - 2021-10-31 22:37:56 --> Error connecting to the database: No such file or directory
+ERROR - 2021-10-31 22:48:31 --> Error connecting to the database: No such file or directory
+ERROR - 2021-10-31 23:00:34 --> Error connecting to the database: No such file or directory
+ERROR - 2021-10-31 23:00:50 --> Error connecting to the database: No such file or directory
+ERROR - 2021-10-31 23:01:59 --> Error connecting to the database: No such file or directory

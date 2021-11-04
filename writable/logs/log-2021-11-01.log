@@ -1,0 +1,222 @@
+CRITICAL - 2021-11-01 00:24:21 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#2 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(50): CodeIgniter\Model->insert()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->tambahdata()
+#4 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-01 00:45:20 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#2 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(52): CodeIgniter\Model->insert()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->tambahdata()
+#4 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-01 00:50:04 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#2 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(52): CodeIgniter\Model->insert()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->tambahdata()
+#4 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-01 00:50:56 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#2 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(52): CodeIgniter\Model->insert()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->tambahdata()
+#4 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+ERROR - 2021-11-01 00:54:44 --> Duplicate entry '2' for key 'PRIMARY'
+CRITICAL - 2021-11-01 00:54:44 --> Duplicate entry '2' for key 'PRIMARY'
+#0 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(45): CodeIgniter\Model->insert()
+#8 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->tambahdata()
+#9 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#13 {main}
+ERROR - 2021-11-01 00:54:52 --> Duplicate entry '2' for key 'PRIMARY'
+CRITICAL - 2021-11-01 00:54:52 --> Duplicate entry '2' for key 'PRIMARY'
+#0 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(45): CodeIgniter\Model->insert()
+#8 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->tambahdata()
+#9 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#13 {main}
+ERROR - 2021-11-01 00:54:54 --> Duplicate entry '2' for key 'PRIMARY'
+CRITICAL - 2021-11-01 00:54:54 --> Duplicate entry '2' for key 'PRIMARY'
+#0 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(45): CodeIgniter\Model->insert()
+#8 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->tambahdata()
+#9 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#13 {main}
+ERROR - 2021-11-01 00:54:55 --> Duplicate entry '2' for key 'PRIMARY'
+CRITICAL - 2021-11-01 00:54:55 --> Duplicate entry '2' for key 'PRIMARY'
+#0 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(45): CodeIgniter\Model->insert()
+#8 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->tambahdata()
+#9 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#13 {main}
+ERROR - 2021-11-01 01:02:09 --> Duplicate entry '4' for key 'PRIMARY'
+CRITICAL - 2021-11-01 01:02:09 --> Duplicate entry '4' for key 'PRIMARY'
+#0 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(42): CodeIgniter\Model->insert()
+#8 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->tambahdata()
+#9 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#13 {main}
+CRITICAL - 2021-11-01 01:46:55 --> CodeIgniter\HTTP\IncomingRequest::getJSON(): Argument #1 ($assoc) must be of type bool, null given, called in /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php on line 57
+#0 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(57): CodeIgniter\HTTP\IncomingRequest->getJSON()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->ubahdata()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-01 01:51:16 --> CodeIgniter\HTTP\IncomingRequest::getJSON(): Argument #1 ($assoc) must be of type bool, array given, called in /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php on line 58
+#0 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(58): CodeIgniter\HTTP\IncomingRequest->getJSON()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->ubahdata()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-01 01:52:42 --> CodeIgniter\HTTP\IncomingRequest::getJSON(): Argument #1 ($assoc) must be of type bool, array given, called in /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php on line 58
+#0 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(58): CodeIgniter\HTTP\IncomingRequest->getJSON()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->ubahdata()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-01 01:52:43 --> CodeIgniter\HTTP\IncomingRequest::getJSON(): Argument #1 ($assoc) must be of type bool, array given, called in /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php on line 58
+#0 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(58): CodeIgniter\HTTP\IncomingRequest->getJSON()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->ubahdata()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-01 01:52:44 --> CodeIgniter\HTTP\IncomingRequest::getJSON(): Argument #1 ($assoc) must be of type bool, array given, called in /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php on line 58
+#0 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(58): CodeIgniter\HTTP\IncomingRequest->getJSON()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->ubahdata()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-01 01:53:53 --> CodeIgniter\HTTP\IncomingRequest::getJSON(): Argument #1 ($assoc) must be of type bool, array given, called in /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php on line 58
+#0 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(58): CodeIgniter\HTTP\IncomingRequest->getJSON()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->ubahdata()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-01 01:53:55 --> CodeIgniter\HTTP\IncomingRequest::getJSON(): Argument #1 ($assoc) must be of type bool, array given, called in /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php on line 58
+#0 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(58): CodeIgniter\HTTP\IncomingRequest->getJSON()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->ubahdata()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-01 01:53:55 --> CodeIgniter\HTTP\IncomingRequest::getJSON(): Argument #1 ($assoc) must be of type bool, array given, called in /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php on line 58
+#0 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(58): CodeIgniter\HTTP\IncomingRequest->getJSON()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->ubahdata()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-01 01:54:40 --> There is no data to update.
+#0 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#3 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(59): CodeIgniter\Model->update()
+#4 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->ubahdata()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-11-01 22:24:43 --> CodeIgniter\HTTP\IncomingRequest::getJSON(): Argument #1 ($assoc) must be of type bool, array given, called in /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php on line 51
+#0 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(51): CodeIgniter\HTTP\IncomingRequest->getJSON()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->ubahdata()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-01 23:18:17 --> CodeIgniter\HTTP\IncomingRequest::getJSON(): Argument #1 ($assoc) must be of type bool, array given, called in /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php on line 51
+#0 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(51): CodeIgniter\HTTP\IncomingRequest->getJSON()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->ubahdata()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-01 23:24:41 --> There is no data to update.
+#0 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#3 /opt/lampp/htdocs/mahasiswabaru/app/Controllers/Datamahasiswa.php(52): CodeIgniter\Model->update()
+#4 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Datamahasiswa->ubahdata()
+#5 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/mahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/mahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
