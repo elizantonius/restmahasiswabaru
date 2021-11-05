@@ -13,6 +13,7 @@ class Datamahasiswa extends ResourceController
     use RequestTrait;
     use ResponseTrait;
 
+
     public function index()
     {
 
