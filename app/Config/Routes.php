@@ -34,10 +34,17 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 
 //API GAN ;)
+
+//Input data Mahasiswa
 $routes->resource('Datamahasiswa');
 $routes->resource('Datamahasiswa/tambahdata');
 $routes->resource('Datamahasiswa/ubahdata');
 $routes->resource('Datamahasiswa/hapusdata/$1');
+
+//Register & Login
+$routes->resource('Auth');
+$routes->resource('Auth/login');
+
 
 /*
  * --------------------------------------------------------------------

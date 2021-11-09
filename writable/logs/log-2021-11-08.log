@@ -1,0 +1,55 @@
+CRITICAL - 2021-11-08 20:24:32 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php on line 277
+#0 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_unique()
+#1 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /home/rygba/Workstation/restmahasiswabaru/app/Controllers/Auth.php(21): CodeIgniter\Controller->validate()
+#4 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#5 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-11-08 20:25:14 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php on line 277
+#0 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_unique()
+#1 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /home/rygba/Workstation/restmahasiswabaru/app/Controllers/Auth.php(21): CodeIgniter\Controller->validate()
+#4 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#5 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-11-08 20:25:57 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php on line 277
+#0 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_unique()
+#1 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /home/rygba/Workstation/restmahasiswabaru/app/Controllers/Auth.php(21): CodeIgniter\Controller->validate()
+#4 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#5 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-11-08 20:28:25 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php on line 277
+#0 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_unique()
+#1 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /home/rygba/Workstation/restmahasiswabaru/app/Controllers/Auth.php(21): CodeIgniter\Controller->validate()
+#4 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#5 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-11-08 20:28:48 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php on line 277
+#0 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_unique()
+#1 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /home/rygba/Workstation/restmahasiswabaru/app/Controllers/Auth.php(21): CodeIgniter\Controller->validate()
+#4 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#5 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
