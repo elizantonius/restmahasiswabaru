@@ -18,14 +18,11 @@ class Auth extends ResourceController
     public function regis()
     {
         $model = new AuthM();
-        $data = [
-            "username" => $this->request->getVar("username"),
-            "password" => password_hash($this->request->getVar("password"), PASSWORD_DEFAULT)
-        ];
         $data = $this->request->getJSON();
+        $data->password = password_hash($data->password, PASSWORD_DEFAULT);
         $hasil = $model->insert($data);
-        var_dump($hasil);
-        // $this->respondCreated($data);
+        // var_dump($hasil);
+        return $this->respondCreated($hasil);
     }
 
     public function login()
