@@ -42,7 +42,7 @@ $routes->resource('Datamahasiswa/ubahdata');
 $routes->resource('Datamahasiswa/hapusdata/$1');
 
 //Register & Login
-$routes->resource('Auth');
+$routes->resource('Auth/regis');
 $routes->resource('Auth/login');
 
 

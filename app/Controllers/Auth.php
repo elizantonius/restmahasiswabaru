@@ -10,22 +10,22 @@ use CodeIgniter\HTTP\RequestTrait;
 class Auth extends ResourceController
 {
 
+    use RequestTrait;
     use ResponseTrait;
-    public function index()
+
+
+
+    public function regis()
     {
-        //helper(['form']);
-        $rules = [
-            'username' => 'required|is_unique',
-            'password' => 'required|min_length[6]',
-        ];
-        if (!$this->validate($rules)) return $this->fail($this->validator->getErrors());
-        $data = [
-            'username'     => $this->request->getVar('username'),
-            'password'  => password_hash($this->request->getVar('password'), PASSWORD_BCRYPT)
-        ];
         $model = new AuthM();
-        $model->insert($data);
-        $this->respondCreated($data);
+        $data = [
+            "username" => $this->request->getVar("username"),
+            "password" => password_hash($this->request->getVar("password"), PASSWORD_DEFAULT)
+        ];
+        $data = $this->request->getJSON();
+        $hasil = $model->insert($data);
+        var_dump($hasil);
+        // $this->respondCreated($data);
     }
 
     public function login()

@@ -1,0 +1,71 @@
+CRITICAL - 2021-11-10 11:03:15 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(19): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-10 11:03:21 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(19): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-10 11:05:02 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(19): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-10 11:05:08 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(19): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-10 11:05:32 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(19): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-10 11:05:34 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(19): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+ERROR - 2021-11-10 21:26:33 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-10 21:27:23 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-10 21:29:02 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-11-10 21:30:10 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(21): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+ERROR - 2021-11-10 21:30:21 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-11-10 21:32:01 --> Undefined property: App\Controllers\Auth::$input
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+ERROR - 2021-11-10 21:32:18 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-10 21:37:24 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-10 21:39:24 --> Unknown column 'created_at' in 'field list'

@@ -1,0 +1,87 @@
+CRITICAL - 2021-11-13 03:22:25 --> Too few arguments to function App\Controllers\Auth::regis(), 0 passed in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-13 03:22:30 --> Too few arguments to function App\Controllers\Auth::regis(), 0 passed in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-13 03:22:48 --> Too few arguments to function App\Controllers\Auth::regis(), 0 passed in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-13 03:23:36 --> Too few arguments to function App\Controllers\Auth::regis(), 0 passed in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-13 03:23:48 --> Too few arguments to function App\Controllers\Auth::regis(), 0 passed in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-13 03:25:14 --> Too few arguments to function App\Controllers\Auth::regis(), 0 passed in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-13 03:26:44 --> Too few arguments to function App\Controllers\Auth::regis(), 0 passed in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-13 03:37:18 --> Too few arguments to function App\Controllers\Auth::regis(), 0 passed in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-13 03:39:17 --> Too few arguments to function App\Controllers\Auth::regis(), 0 passed in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-13 03:43:43 --> Too few arguments to function App\Controllers\Auth::regis(), 0 passed in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-13 03:44:29 --> Too few arguments to function App\Controllers\Auth::regis(), 0 passed in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->regis()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+ERROR - 2021-11-13 03:45:18 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-13 03:46:38 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-13 03:46:39 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-13 03:46:40 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-13 03:55:02 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-13 04:28:47 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-13 04:29:58 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-13 05:48:23 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-13 05:48:40 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-13 05:49:11 --> Unknown column 'created_at' in 'field list'

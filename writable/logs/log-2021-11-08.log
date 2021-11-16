@@ -53,3 +53,111 @@ CRITICAL - 2021-11-08 20:28:48 --> CodeIgniter\Validation\Rules::is_unique(): Ar
 #7 /home/rygba/Workstation/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #8 /home/rygba/Workstation/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
 #9 {main}
+CRITICAL - 2021-11-08 20:39:16 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php on line 277
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_unique()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(21): CodeIgniter\Controller->validate()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-11-08 20:39:18 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php on line 277
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_unique()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(21): CodeIgniter\Controller->validate()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-11-08 20:39:20 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php on line 277
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_unique()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(21): CodeIgniter\Controller->validate()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-11-08 20:48:06 -->  is not a valid rule.
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(37): CodeIgniter\Controller->validate()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-11-08 20:48:38 -->  is not a valid rule.
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(37): CodeIgniter\Controller->validate()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2021-11-08 20:56:01 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-08 21:00:08 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-08 21:00:10 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-08 21:00:12 --> Unknown column 'created_at' in 'field list'
+ERROR - 2021-11-08 21:00:13 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-11-08 21:02:11 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(18): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-08 21:11:21 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(18): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-08 21:12:11 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(18): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-08 21:12:12 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(18): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-08 21:19:53 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(19): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-08 21:20:12 --> password_hash(): Argument #1 ($password) must be of type string, array given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(19): password_hash()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
