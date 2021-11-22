@@ -44,6 +44,11 @@ $routes->resource('Datamahasiswa/hapusdata/$1');
 //Register & Login
 $routes->resource('Auth/regis');
 $routes->resource('Auth/login');
+$routes->group('admin', ['Filter' => 'auth'], function ($routes) {
+    $routes->add('mahasiswa', 'Mahasiswa::index');
+    $routes->add('mahasiswa', 'Admin\Blog::index');
+});
+$routes->resource('Mahasiswa', ['filter' => 'auth']);
 
 
 /*

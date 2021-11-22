@@ -1,0 +1,146 @@
+CRITICAL - 2021-11-20 05:54:21 -->  is not a valid rule.
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(33): CodeIgniter\Controller->validate()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-11-20 06:17:45 -->  is not a valid rule.
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(33): CodeIgniter\Controller->validate()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-11-20 06:20:38 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 06:26:33 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 06:44:13 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+ERROR - 2021-11-20 06:49:27 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2021-11-20 06:49:27 --> Call to a member function getFirstRow() on bool
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(36): CodeIgniter\BaseModel->first()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2021-11-20 06:50:57 --> Cannot use object of type App\Models\AuthM as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 06:51:46 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 07:22:06 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 07:22:46 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 07:24:26 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 07:25:23 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 07:26:24 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 07:28:14 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 07:28:15 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 07:29:05 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 07:29:30 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-20 07:29:41 --> password_verify(): Argument #1 ($password) must be of type string, stdClass given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(31): password_verify()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-11-20 07:31:07 --> password_verify(): Argument #2 ($hash) must be of type string, stdClass given
+#0 /opt/lampp/htdocs/restmahasiswabaru/app/Controllers/Auth.php(31): password_verify()
+#1 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Auth->login()
+#2 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/restmahasiswabaru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/restmahasiswabaru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
